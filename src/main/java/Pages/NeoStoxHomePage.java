@@ -14,6 +14,11 @@ public class NeoStoxHomePage {
 	@FindBy(id="lbl_username") private WebElement userName;
 	@FindBy(id = "lbl_curbalancetop") private WebElement acBalance;
 	@FindBy(xpath = "//span[text()='Logout']") private WebElement logOutButton;
+	
+	
+	
+	
+	
 	public NeoStoxHomePage(WebDriver driver)
 	{
 	PageFactory.initElements(driver, this);
