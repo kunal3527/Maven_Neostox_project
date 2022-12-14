@@ -24,8 +24,6 @@ public class NeoStoxBase {
 	        driver.get(UtilityforProperty.readDataFromProperties("Url"));
 	        Reporter.log("Chrome is running",true);
 		
-
-
 	}
 //		public void launchFirfoxbrowser() throws IOException
 //		{
