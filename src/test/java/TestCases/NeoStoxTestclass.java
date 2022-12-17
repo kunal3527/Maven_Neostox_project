@@ -7,6 +7,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -89,6 +90,12 @@ public class NeoStoxTestclass extends NeoStoxBase {
 		Thread.sleep(1000);
 		Assert.assertNotNull(home.getAccBalance(driver), "TC is failed unable to fetch balance");
 	//	CommenUtility.Screenshot(driver, home.getAccBalance(driver));
+	}
+	@Test
+	public void f()
+	{
+		
+		Reporter.log("Test case is Running",true);
 	}
 	@AfterMethod
 	public void logOut()
