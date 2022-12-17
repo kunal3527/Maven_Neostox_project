@@ -97,8 +97,15 @@ public class NeoStoxTestclass extends NeoStoxBase {
 	home.logout(driver);
 		
 	}
+
+
+	
+	
+	
+	
 	@AfterClass
-	public void closebrowser(){
+	public void closebrowser()
+	{
 		
 		driver.close();
 		
