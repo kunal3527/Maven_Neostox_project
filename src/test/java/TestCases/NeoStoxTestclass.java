@@ -85,7 +85,7 @@ public class NeoStoxTestclass extends NeoStoxBase {
 	@Test
 	public void validatebalance() throws IOException, InterruptedException
 	{
-		Assert.fail();
+		
 		Thread.sleep(1000);
 		Assert.assertNotNull(home.getAccBalance(driver), "TC is failed unable to fetch balance");
 	//	CommenUtility.Screenshot(driver, home.getAccBalance(driver));
@@ -99,10 +99,6 @@ public class NeoStoxTestclass extends NeoStoxBase {
 	}
 
 
-	
-	
-	
-	
 	@AfterClass
 	public void closebrowser()
 	{
