@@ -21,7 +21,7 @@ public class UtilityforProperty {
 	
 	{
 	Properties p=new Properties();
-	FileInputStream myfile=new FileInputStream("C:\\Users\\DELL\\eclipse-workspace\\D1 16th JulyA Selenium Framework_Study\\Neostox.properties");
+	FileInputStream myfile=new FileInputStream("C:\\Users\\SAI\\Velocity\\eclipse-workspace\\Maven16thjulyAevening\\Neostox.properties");
 	p.load(myfile);
 	Reporter.log("Reading "+key+" from property file",true);
 	String value = p.getProperty(key);
@@ -34,7 +34,7 @@ public class UtilityforProperty {
 	{
 		wait(driver, 1000);
 	File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);	
-	File dest=new File("C:\\Users\\DELL\\eclipse-workspace\\D1 16th JulyA Selenium Framework_Study\\Screenshots\\Screenshot\\"+ScreenshotName+".png");	
+	File dest=new File("C:\\Users\\SAI\\Velocity\\eclipse-workspace\\Maven16thjulyAevening\\Screenshot\\"+ScreenshotName+".png");	
 	FileHandler.copy(src, dest);
 	Reporter.log("Taking Screenshot",true);
 	}

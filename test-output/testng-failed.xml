@@ -5,7 +5,6 @@
     <classes>
       <class name="TestCases.NeoStoxTestclass">
         <methods>
-          <include name="validateUserID"/>
           <include name="launchNeoStox"/>
           <include name="validatebalance"/>
           <include name="logOut"/>
